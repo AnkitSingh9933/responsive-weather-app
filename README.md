@@ -28,9 +28,8 @@ A responsive weather application built using JavaScript and OpenWeather API.
 
 # 🌍 Live Demo
 
-https://phenomenal-starship-d14566.netlify.app
+https://live-responsive-weather-app.netlify.app/
 
----
 
 # 📸 Screenshot
 
