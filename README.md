@@ -34,7 +34,7 @@ https://phenomenal-starship-d14566.netlify.app
 
 # 📸 Screenshot
 
-<img width="100%" src="file:///C:/Users/HP/Pictures/Screenshots/Screenshot%202026-05-16%20094213.png">
+<img width="100%" src="https://github.com/AnkitSingh9933/responsive-weather-app/blob/main/weather-app.png.png?raw=true"
 
 ---
 
