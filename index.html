@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Weather App</title>
+
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- =========================
+         MAIN CONTAINER
+    ========================== -->
+
+    <div class="container">
+
+
+        <!-- =========================
+             SEARCH SECTION
+        ========================== -->
+
+        <div class="search-box">
+
+            <input type="text"
+                   id="cityInput"
+                   placeholder="Enter city name...">
+
+            <button id="searchBtn">
+                Search
+            </button>
+
+        </div>
+
+
+        <!-- =========================
+             DEFAULT MESSAGE
+        ========================== -->
+
+        <p id="defaultMsg">
+            Search any city to see live weather
+        </p>
+
+
+        <!-- =========================
+             WEATHER CARD
+        ========================== -->
+
+        <div class="weather-card">
+
+            <h2 id="cityName">
+                --
+            </h2>
+
+            <p id="weatherType"
+               class="badge">
+                --
+            </p>
+
+            <h1 id="temperature">
+                --°C
+            </h1>
+
+            <p id="dateTime">
+                --
+            </p>
+
+        </div>
+
+
+        <!-- =========================
+             EXTRA WEATHER INFO
+        ========================== -->
+
+        <div class="extra-info">
+
+
+            <!-- FEELS LIKE -->
+
+            <div class="info-box">
+
+                <p>🌡 Feels Like</p>
+
+                <span id="feelsLike">
+                    --
+                </span>
+
+            </div>
+
+
+            <!-- HUMIDITY -->
+
+            <div class="info-box">
+
+                <p>💧 Humidity</p>
+
+                <span id="humidity">
+                    --
+                </span>
+
+            </div>
+
+
+            <!-- WIND -->
+
+            <div class="info-box">
+
+                <p>🌬 Wind</p>
+
+                <span id="wind">
+                    --
+                </span>
+
+            </div>
+
+
+            <!-- PRESSURE -->
+
+            <div class="info-box">
+
+                <p>🔽 Pressure</p>
+
+                <span id="pressure">
+                    --
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- JS FILE -->
+    <script src="script.js"></script>
+
+</body>
+</html>
